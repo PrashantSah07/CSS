@@ -1,0 +1,8 @@
+div ul li {
+    /* list-style: none; */
+    list-style: devanagari;
+    list-style-type: "🙉";
+    /* list-style-position: inside; */
+    background-color: red;
+    border: 2px solid black;
+}

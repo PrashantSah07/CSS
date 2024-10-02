@@ -1,0 +1,18 @@
+#img1{
+    filter: blur(2px);
+}  
+
+#img2{
+    filter: brightness(80%) contrast(2.2) ;
+
+}   
+
+#img3{
+    /* filter: contrast(200%); */
+    /* filter: grayscale(100%); */
+    /* filter: sepia(100%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(1); */
+    /* filter: opacity(0.50); */ 
+    
+}  

@@ -1,0 +1,48 @@
+    *{ 
+        margin: 0; 
+        padding: 0;
+    }
+
+    .dv{ 
+        border: 2px solid black; 
+        /* width: 1536px;  */
+        background-color: aqua; 
+        box-sizing: border-box; 
+        width: 80vw;                                 /* vw - view-port width */
+        height: 10vh;                                /* vh - view-port height */
+        margin:auto; 
+    } 
+
+    .container{ 
+        border: 2px solid black; 
+        background-color: aqua; 
+        box-sizing: border-box;
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: 23px auto;
+        font-size: 16px;                              /* default font size of text */ 
+    } 
+    .container p{
+        border: 2px solid black;
+        font-size: 2em;                               /* multiply by 2 into 16px = 30 px */ 
+        width: 50%;
+    } 
+
+    /* html{                              
+        font-size: 12px;                              
+    } 
+    .container p{                                     
+        font-size: 2rem;                               
+    } */                                              /* default font size changed 16 px to 12 px */
+                                                    /* multiply by 2 into 12px = 24 px */ 
+
+    .mycont{ 
+        border: 2px solid rgb(0, 17, 255); 
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 0, 255); 
+        font-size: 30px; 
+        width: 100vmin;                               /* (vmin = vw for phone and vh for this device) */
+        width: 80vmax;                               /* (vmax = vh for phone and vw for this device) */
+        margin: auto;
+    }

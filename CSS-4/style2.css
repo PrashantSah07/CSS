@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(244, 234, 221);
+}
+
+#image {
+    border: 1px solid black; 
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+#border {
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 7px; 
+    padding: 17px 0px 0px 0px;
+    border-width: 12px 1px 1px 1px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+#font {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.br {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+
+#br1 {
+    color: red;
+}
+
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.em {
+    padding: 20px 85px 20px 20px;
+
+}
+
+#em1 {
+    color: red;
+}
+
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.nm {
+    padding: 20px 85px 20px 20px;
+}
+
+#nm1 {
+    color: red;
+}
+
+#enrollment {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.enroll {
+    padding: 20px 85px 20px 20px;
+}
+
+#enroll1 {
+    color: red;
+}
+
+#college {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.clg {
+    padding: 20px 85px 20px 20px;
+}
+
+#clg1 {
+    color: red;
+}
+
+#branch {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.br {
+    border: 0px;
+    padding: 15px 15px 15px 15px;
+}
+
+#br1 {
+    color: red;
+}
+
+#mobile {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.mn {
+    padding: 20px 85px 20px 20px;
+}
+
+#mn1 {
+    color: red;
+}
+
+#primary-email {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 650px;
+    background-color: white;
+}
+
+.p-mail {
+    padding: 20px 85px 20px 20px;
+}
+
+#p-mail1 {
+    color: red;
+}
+
+#switch-ac {
+    color: rgb(61, 61, 235);
+}
+
+#submit {
+    margin: 10px auto;
+    width: 650px;
+}

@@ -1,0 +1,37 @@
+/* #parents{
+    border: 2px solid black; 
+    width: 800px;
+    
+} 
+#child{ 
+    border: 2px solid rgb(4, 29, 251); 
+    width: 50%;
+  
+} */
+
+
+/* #parents{
+    border: 2px solid black; 
+    height: 50vh ;
+    width: 50vw; 
+} 
+
+#child{ 
+    border: 2px solid rgb(4, 29, 251); 
+    height: 50%;
+    width: 50%;
+} */ 
+ 
+html{ 
+    font-size: 20px;
+}
+
+#parents{
+   /* font-size: 80px; */ 
+   font-size: 5vw;
+} 
+#child{ 
+    /* font-size: 50%;  */ 
+    font-size: 2em; 
+    /* font-size: 0.5rem; */
+}

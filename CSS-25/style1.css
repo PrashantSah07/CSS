@@ -1,0 +1,14 @@
+.container {
+    border: 2px solid black;
+    width: 40vw;
+    height: 50vh;
+    margin: 20vh auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8uVpJstimP1WOSmePxDi6zMDX6VpxJp5brA&s);
+    background-repeat: no-repeat; 
+     filter: blur(2px);  
+
+    /* background-color: red; */
+    /* filter: blur(2px);  */
+}
+
+

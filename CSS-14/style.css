@@ -1,0 +1,60 @@
+.box {
+    border: 2px solid black;
+    height: 10vh;
+    width: 80vw;
+    padding: 30px;
+    margin: 5px auto;
+}
+
+.parents {
+    border: 5px solid black;
+    width: 95vw;
+    padding: 20px;
+    height: 1000px;
+
+    /* position: absolute;  */
+}
+
+
+.box1 {
+    background-color: red;
+    /* position: relative; */
+    /* z-index: 1; */
+
+    /* position: absolute; 
+    bottom: 50px;  */
+
+    /* position: fixed;
+    top: 200px; */
+
+    position: sticky;
+    top: 0px;
+
+}
+
+.box2 {
+    background-color: white;
+    /* position: relative; */
+    /* top: 50px; */
+    /* bottom: 50px; */
+    /* left: 50px; */
+    /* right: 50px; */
+}
+
+.box3 {
+    background-color: rgb(6, 213, 6);
+    /* position: relative; */
+    /* top: 100px; */
+    /* bottom: 100px; */
+    /* left: 100px; */
+    /* right: 100px; */
+}
+
+.box4 {
+    background-color: blue;
+    /* position: relative; */
+    /* top: 150px; */
+    /* bottom: 150px; */
+    /* left: 150px; */
+    /* right: 150px; */
+}

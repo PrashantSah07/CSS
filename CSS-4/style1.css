@@ -1,0 +1,15 @@
+div{ 
+    border: 1px solid red; 
+    padding: 10px; 
+}  
+*{ 
+    margin: 0px; 
+    border: 2px solid black;
+} 
+#marg{  
+  padding: 20px;  
+ 
+  margin: 20px auto;
+  width: 200px; 
+  
+}   

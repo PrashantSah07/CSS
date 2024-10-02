@@ -1,0 +1,13 @@
+.box-shadow {
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 10px 20px 10px 20px; 
+    text-align: center;
+    padding: 34px;
+    width: 20vw;
+    margin: 50px auto; 
+    text-shadow: 7px 10px 4px red;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    outline: 2px solid green;                       /* Outline is just like border but not the border*/
+    /* outline-offset: 20px;             */
+} 

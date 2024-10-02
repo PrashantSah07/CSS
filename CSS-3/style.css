@@ -1,0 +1,46 @@
+div {                                        /*Element Selector*/
+    background-color: purple;
+                                     
+}
+
+#color-text {                                /*class Selector*/
+   
+    background-color: red;
+}
+
+.div2 {                                      /*Id Selector (High Priority) */
+    
+    background-color: blue;
+}
+
+span{  
+
+    color:green;
+}  
+
+span>p{                                      /*Child Selector*/
+
+    color: orange;
+}
+
+/* span p{                                     
+                                             
+    color: rgb(255, 10, 190);                
+} */                                         /*Descendant Selector*/
+                      
+*{                                           /*Universal Selector (*) using for all the element*/
+    margin: 0;
+    padding: 0;
+} 
+
+a:visited{                                   /*Pseudo Selector -it is used when you visited the website then color will be changed*/
+    color: rgb(0, 244, 203);
+}  
+
+a:active{ 
+    background-color: yellow;
+} 
+
+a:hover{
+    color: red;
+}

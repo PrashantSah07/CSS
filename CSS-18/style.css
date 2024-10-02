@@ -1,0 +1,84 @@
+/* .box:first-child{          
+    background-color: red;
+}  */
+/* OR */
+
+/* .box:nth-child(1){ 
+    background-color: red;
+} */
+
+
+/* .box:nth-child(2){ 
+    background-color: white;
+}  */
+
+/* .box:nth-child(3) {
+    background-color: green;
+} */
+
+/* .box:nth-last-child(3){ 
+    background-color: darkslategrey;
+}  */
+
+/* .box:nth-last-child(2){ 
+    background-color: darkolivegreen;
+}  */
+
+/* .box:nth-last-child(1){ 
+    background-color: darkslateblue ;
+} */
+
+/* .box:nth-child(even) {
+    background-color: cadetblue;
+} */
+
+/* .box:nth-child(odd){ 
+    background-color: chocolate;
+} */
+
+/* .box::first-letter {
+    color: rgb(26, 14, 249);
+} */
+
+/* .box::first-line {
+    background-color: yellow;
+} */
+
+/* .boxes::before {
+    content: "This is print before the box class";
+    font-size: larger;
+    color: crimson;
+} */
+
+/* .boxes::after {
+    content: "This is all about 'More On CSS'";
+    font-size: larger;
+    color: crimson;
+} */
+
+/* .box::selection{ 
+    color: rgb(234, 6, 234);       /*for only apply on .box class element*
+    background-color: black;
+} */
+
+/* ::selection{ 
+    color:  rgb(105, 245, 245); 
+    background-color: crimson;
+} */
+
+input {
+    /* border: none; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    border: 2px solid rgb(154, 154, 235);
+    border-width: 0px 0px 2px 0px; 
+    border-radius: 5px; 
+    color: blue;
+} 
+
+input::placeholder{ 
+    color: red;
+}

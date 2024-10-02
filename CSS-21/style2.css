@@ -1,0 +1,54 @@
+.container {
+    border: 2px solid red;
+    width: 50vw;
+    height: 50vh;
+    margin: -270px auto;
+}
+
+body {
+    background-color: black;
+}
+
+.container:hover {
+    transform: rotate(360deg);
+    transition: 0.1s;
+}
+
+.box {
+    border: 5px solid rgb(0, 81, 255);
+    background-color: bisque;
+    border-radius: 70px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold;
+    align-items: center;
+    transform-origin: 420% 191%;
+}
+
+.box:active {
+    /* transform:rotateY(360deg);  */
+    /* transform:rotateX(360deg); */
+    /* transform:rotateY(360deg) rotateX(360deg);  */
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+
+.sun {
+    border: 2px solid black;
+    width: 12vw;
+    height: 26vh;
+    border-radius: 110px;
+    background-color: yellow;
+    margin: 245px 0px 0px 670px;
+    box-shadow: 0px 0px 80px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 150, 21);
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+}  

@@ -1,0 +1,74 @@
+.box {
+    border: 2px solid black;
+    height: 10vh;
+    width: 80vw;
+    text-align: center;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+
+}
+
+.primary {
+
+    display: flex;
+
+
+}
+
+.main {
+    border: 2px solid black;
+    width: 19.84vw;
+    height: 60vh;
+    overflow: scroll;
+    background-color: aquamarine;
+}
+
+.parent {
+    margin-left: 140px;
+}
+
+body {
+    height: 300vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 132, 132);
+}
+
+
+p {
+    border: 2px solid black;
+    width: 113px;
+    border-radius: 10px;
+    padding: 5px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgb(200, 200, 239);
+}
+
+.images {
+
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.img1 {
+
+    width: 1400px;
+    border: 5px solid black;
+
+} 
+.img2 {
+
+    width: 700px;
+    border: 5px solid black;
+
+}  
+.img3{ 
+    width: 700px;
+    border: 5px solid black; 
+    height: 393.3px; 
+    width: 686px;
+} 
+

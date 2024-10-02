@@ -1,0 +1,43 @@
+#name{
+    border: 5px solid black;
+    border-radius: 10px;
+    color: rgb(129, 5, 245);
+    font-size: 70px;
+    font-family: "Sevillana", cursive;
+    font-weight: bolder;
+    text-decoration: underline red dotted;
+    text-decoration-thickness: 7px;
+    width: 400px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: black;
+} 
+
+
+/* Inline selector(1000)>Id selector(100)>Class selector(10)>Element selector(1)>Universal selector(0) */
+
+div{ 
+    color: aqua;
+}
+h1{ 
+    color: brown;
+}
+#Specificityy{ 
+    color: rgb(0, 8, 255);
+} 
+.yellow{                                  
+    color: yellow; 
+} 
+.red{ 
+    color: red;
+} 
+.green{ 
+    color: rgb(37, 232, 37);
+} 
+#cs{                                     /*( Id selector (High Priority) unless you don't use inline css) */
+    color: cornflowerblue;
+} 
+h1.green{ 
+    color: pink;
+}
+

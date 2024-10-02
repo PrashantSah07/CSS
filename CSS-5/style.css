@@ -1,0 +1,10 @@
+div{  
+       border: 5px solid black;
+    /* border-radius: 10px ;                           /* border-radius - round shape */
+    /* border-width: 1px 4px 7px 10px;                 /* border-width - set the border width form all the side top, right, bottom, left */
+    /* border-style: solid dotted dashed;              /* border-style - set the border style form all the side top, right-left, bottom */  
+    /* border-color: red blue green yellow;            /* border-color - set the border color form all the side top, right, bottom, left */ 
+    
+    border-radius: 10px 20px 30px 40px;
+    
+}

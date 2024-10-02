@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color: rgb(255, 7, 214);                 /* Globle Variable */
+    --color2: rgb(250, 156, 223); 
+    --padding: 34px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: var(--padding);
+}
+
+li:first-child {
+    --color: rgb(242, 78, 28);                 /* Local Variable */
+    background-color: var(--color, blue);      /* if color not present than blue is applied as background color */
+}
+
+.box {
+    background-color: var(--color);
+}
+
+.container {
+    background-color: var(--color2);
+}

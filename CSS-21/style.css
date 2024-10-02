@@ -1,0 +1,48 @@
+.container {
+    border: 5px solid rgb(0, 255, 38);
+    width: 50vw;
+    height: 50vh;
+    margin: 100px auto;
+
+
+}
+
+.box {
+    border: 5px solid rgb(0, 81, 255);
+    background-color: bisque;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /*transform: rotate(0.25turn);*/      /* 0.25turn=(90deg), 0.50turn=(180deg), 0.75turn(270deg), 1.0turn=(360deg or 0 deg) */
+    /* transform: rotate(90deg); */
+    /* transform: rotateX(45deg); */ 
+    /* transform: rotateY(45deg); */ 
+    
+    /* transform: scale(2); */ 
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(2); */  
+    /* transform: scale(2,3);  */
+    /* transform: scaleZ(1); */ 
+    /* transform: scale3d(2.5); */ 
+    
+    /* transform: skew(5deg); */
+    /* transform: skewX(22deg); */
+    /* transform: skewY(22deg); */  
+    /* transform: skew(10deg, 10deg); */
+    
+    /* transform: translate(60%); */
+    /* transform: translateX(280%); */ 
+    /* transform: translateY(140%); */  
+    /* transform: translate(40%, 80%); */
+    /* transform: translateY(140%) translateX(280%) skewX(30deg);/*     /* Multiple transform property apply in single line */ 
+
+    /* transform: rotate(180deg);  */
+    /*transform-origin: 0% 0%; */      /* first 0% for x-axis and second 0% for y-axis */ 
+
+
+} 

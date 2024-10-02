@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(60, 0, 255);
+}
+
+
+/* @media only screen and (max-width: 1000px) {
+    body {
+        background-color: rgb(13, 255, 0);
+    }
+} */
+
+/* @media only screen and (max-width: 700px) {
+    body {
+        background-color: rgb(32, 3, 255);
+    }  */
+
+
+
+/* @media only screen and (min-width: 700px) {
+    body {
+        background-color: rgb(13, 255, 0);
+    }
+} */
+
+/* @media only screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(32, 3, 255);
+    }
+}  */
+
+
+/* @media screen and (orientation: landscape){ 
+    body{ 
+        border: 5px solid purple;
+    }
+}  */
+
+/* @media screen and (orientation: portrait){ 
+    body{ 
+        border: 5px solid purple;
+    }
+}  */
+
+
+@media only screen and (max-width: 500px) {
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    background-color: steelblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 344px;
+    height: 344px;
+    padding: 5px;
+    margin: 5px;
+}

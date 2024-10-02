@@ -1,0 +1,14 @@
+div{ 
+    border: 2px solid black; 
+    margin: 30px;
+    width: 40vw; 
+    height: 40vh;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    white-space: nowrap;                 /* white-space is only applicable when overflow property is used */
+    /* overflow-x: hidden; */            /* for verticle line */
+    /* overflow-y: auto; */              /* for horizontal line */
+    /* text-overflow: ellipsis; */
+    
+}
